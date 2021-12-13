@@ -1,0 +1,42 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-font name="Rubik" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" />
+      <mj-class name="text-bold" color="#1B2239" font-weight="700" font-size="16px" />
+      <mj-text padding-bottom="8px" padding-top="0" />
+      <mj-class name="text-small" font-size="14px" />
+      <mj-all padding="0" font-family="Rubik, sans-serif" color="#4D5365" font-size="16px" font-weight="400" />
+      <mj-style inline="inline">
+        .text-blue {
+          color: #58969E;
+        }
+      </mj-style>
+    </mj-attributes>
+  </mj-head>
+  <mj-body width="780px">
+    <mj-section text-align="left" background-color="#fff" padding="20px">
+      <mj-column width="25%">
+        <mj-image src="https://sibirthegame.ru/upload/email_template/images/men-2.png">
+      </mj-column>
+      <mj-column padding="35px 15px" width="75%">
+        <mj-text mj-class="text-bold" padding-bottom="20px">Уважаемый(ая) Имя</mj-text>
+        <mj-text padding-bottom="20px">
+          Ваш заказ <span style="color: #58969E;">123</span> <br>
+          Настольная игра «Сибирь. Начало», 2 шт. был передан в доставку
+        </mj-text>
+        <mj-text>
+            Вы можете отследить его
+            по трек-номеру <span style="color: #58969E;">Номер</span> <br> на сайте 
+            компании <span style="color: #58969E;"><Доставщик></span>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-divider padding="15px 0" border-width="1px" border-style="solid" border-color="#E5E6E9" />
+        <mj-text mj-class="text-small">
+          По любым вопросам, связанным с доставкой, звоните +7 (916) 170-86-26
+          С уважением, издатели.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
